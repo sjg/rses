@@ -1,0 +1,21 @@
+*Really Simple Echo Server*
+
+As the title says, this code implements a really simple TCP echo server running on ports 3000 for listen and
+3001 for listen.  Written in Node.js in about 10 minutes
+
+* To Run *
+node echoserver.js
+
+* Add your IP Address to the allow list*
+echo "127.0.0.1" >> iplist
+
+* To Test*
+Open 2 terminal windows, use nc to connect to the ports:
+
+nc localhost 3000
+
+nc localhost 3001
+
+What you type in window 1 wil be written out on terminal 2
+
+Enjoy everyone :)
