@@ -11,9 +11,8 @@ echo "127.0.0.1" >> iplist
 
 * To Test
 Open 2 terminal windows, use nc to connect to the ports:
-
-	nc localhost 3000
-	nc localhost 3001
+nc localhost 3000
+nc localhost 3001
 
 What you type in window 1 wil be written out on terminal 2
 
