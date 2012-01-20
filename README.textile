@@ -1,6 +1,6 @@
 *Really Simple Echo Server*
 
-As the title says, this code implements a really simple TCP echo server running on ports 3000 for listen and
+As the title says, this code implements a really simple TCP echo server running on ports 3000 for sending and
 3001 for listen.  Written in Node.js in about 10 minutes
 
 * To Run
